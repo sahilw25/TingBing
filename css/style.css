@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Montserrat", sans-serif;
+    line-height: 1.7;
+    color: white;
+    background: white;
+}
+
+.container{
+    width: 76%;
+    margin: 0 auto;
+}
+
+.container a{
+    
+    color: aliceblue;
+}
+
+nav{
+    background: #1f2641 ;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
+
+.nav_con{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+header{
+    position: relative;
+    overflow: hidden;
+    height: 70vh;
+    background: #1f2641;
+}
+
+.header_con{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 100%;
+    gap:5rem;
+}
+
+.header_left p{
+    margin: 1rem 0 2.4rem ;
+}
+
+.header_right{
+    margin: 1rem 0 2.4rem ;
+    background: #475797;
+    padding: 10vh;
+    
+}
+
+.btn{
+    background: rgb(68, 68, 253);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.more_info{
+    color: black;
+}
+
+.more_info{
+    text-align: center;
+    line-height: 1;
+    margin-top: 3rem;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 10px blue;
+}
+
+.info{
+    background: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 4px;
+}
+
+
+
+
+
+
