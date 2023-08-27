@@ -79,7 +79,7 @@ header{
     padding: 10px 20px;
     border-radius: 10px;
 }
-
+/*------------------------------################     some more info #############______________________*/
 .more_info{
     color: black;
 }
@@ -93,24 +93,84 @@ header{
 .boxes{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 1rem;
+    
 }
-.box{
-    height: 200px;
-    width: 200px;
-    padding: 20px;
+
+div.box{
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    border: 3px solid rgb(0, 115, 255);
     border-radius: 5px;
-    border: 10px blue;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .info{
     background: white;
     padding: 2rem;
-    border-radius: 2rem;
+    border-radius: 10px;
     margin: 4px;
 }
 
+section.qoute{
+    background: rgb(156, 176, 187);
+    color: rgb(31, 31, 31);
+    padding: 74px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif ;
+}
 
+p.message{
+    padding: 10px;
+    margin-left: 120px;
+    margin-right: 70px;
+}
+
+p.thor{
+    font-size: 20px;
+    margin-left: 800px;
+}
+
+section.calls{
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.call{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background: rgb(104, 104, 255);
+    border-radius: 10px;
+    height: 150px;
+    width: 75%;
+    
+}
+
+article.words{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(104, 104, 255);
+    height: 30px;
+    width: 90px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+div.copy_right{
+    background: #1f2641;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
 
 
 
